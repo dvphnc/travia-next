@@ -1,37 +1,25 @@
 import Layout from '../components/Layout';
 import PostCard from '../components/PostCard';
-import Link from 'next/link';
 import posts from '../data/posts';
 
-export default function Home() {
-    const featured = posts.slice(0, 4);
-
+export default function AllPosts() {
     return (
-        <Layout
-            title="Travia - Travel & Trivia"
-            description="Travel smart, trivia start. Explore the world one story at a time."
-        >
-            {/* Header */}
+        <Layout title="All Stories - Travia">
             <header
                 className="page-header"
                 style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920')" }}
             >
                 <div style={{ textAlign: 'center' }}>
-                    <h1>TRAVIA</h1>
-                    <p className="lead">travel smart, trivia start</p>
+                    <h1>ALL STORIES</h1>
+                    <p className="lead">explore our complete collection</p>
                 </div>
             </header>
 
-            {/* Posts */}
             <div className="container">
                 <div className="col-10">
-                    {featured.map(post => (
+                    {posts.map(post => (
                         <PostCard key={post.slug} post={post} />
                     ))}
-
-                    <div className="down-btn">
-                        <Link href="/all-posts" className="btn">View More Stories</Link>
-                    </div>
                 </div>
             </div>
         </Layout>
