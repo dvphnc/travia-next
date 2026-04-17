@@ -14,7 +14,11 @@ export default function Layout({ children, title, description, image }) {
                 <meta property="og:image" content={image || 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200'} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
-                <link rel="icon" href="/favicon.ico" />
+
+                {/* Custom Favicon - Your Logo */}
+                <link rel="icon" href="/logo.png" type="image/png" />
+                <link rel="shortcut icon" href="/logo.png" type="image/png" />
+                <link rel="apple-touch-icon" href="/logo.png" />
             </Head>
             <div className="page-wrapper">
                 <Navbar />
