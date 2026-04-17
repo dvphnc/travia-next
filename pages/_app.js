@@ -1,21 +1,21 @@
 import '../styles/globals.css';
 import { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/router';
 import SplashScreen from '../components/SplashScreen';
 
 export default function App({ Component, pageProps }) {
     const [showSplash, setShowSplash] = useState(false);
+    const router = useRouter();
 
     useEffect(() => {
-        // Only show splash on first visit per session
-        const visited = sessionStorage.getItem('travia_visited');
-        if (!visited) {
+        // Show splash every time user visits the home page
+        if (router.pathname === '/') {
             setShowSplash(true);
         }
-    }, []);
+    }, [router.pathname]);
 
     const handleSplashComplete = useCallback(() => {
         setShowSplash(false);
-        sessionStorage.setItem('travia_visited', 'true');
     }, []);
 
     return (
