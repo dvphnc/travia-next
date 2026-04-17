@@ -8,10 +8,21 @@ export default function PostCard({ post }) {
     return (
         <div className="post-card">
             {/* Thumbnail */}
-            <Link href={`/post/${post.slug}`}>
-                <div
-                    className="post-thumbnail"
-                    style={{ backgroundImage: `url(${post.image})` }}
+            <Link href={`/post/${post.slug}`} style={{ display: 'block', width: '300px', minWidth: '300px', flexShrink: 0, overflow: 'hidden' }}>
+                <img
+                    src={post.image}
+                    alt={post.title}
+                    style={{
+                        width: '100%',
+                        height: '100%',
+                        minHeight: '260px',
+                        objectFit: 'cover',
+                        display: 'block',
+                        transition: 'transform 0.5s ease',
+                    }}
+                    onError={(e) => {
+                        e.target.src = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop';
+                    }}
                 />
             </Link>
 

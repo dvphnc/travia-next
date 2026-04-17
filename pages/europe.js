@@ -10,9 +10,10 @@ export default function Europe() {
         <Layout title="Europe - Travia" description="Explore stories from Europe on Travia.">
             <header
                 className="page-header"
-                style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1920')" }}
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1920&auto=format&fit=crop')" }}
             >
-                <div style={{ textAlign: 'center' }}>
+                <div className="page-header-overlay" />
+                <div className="page-header-content">
                     <h1>EUROPE</h1>
                     <p className="lead">where past meets the present</p>
                 </div>

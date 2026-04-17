@@ -10,9 +10,10 @@ export default function Americas() {
         <Layout title="Americas - Travia" description="Explore stories from the Americas on Travia.">
             <header
                 className="page-header"
-                style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1920')" }}
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1920&auto=format&fit=crop')" }}
             >
-                <div style={{ textAlign: 'center' }}>
+                <div className="page-header-overlay" />
+                <div className="page-header-content">
                     <h1>AMERICAS</h1>
                     <p className="lead">from northern lights to southern skies</p>
                 </div>

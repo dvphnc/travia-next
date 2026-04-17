@@ -130,9 +130,18 @@ export default function PostPage({ post, content, related }) {
                                                 href={`/post/${r.slug}`}
                                                 className="related-card"
                                             >
-                                                <div
-                                                    className="related-card-img"
-                                                    style={{ backgroundImage: `url(${r.image})` }}
+                                                <img
+                                                    src={r.image}
+                                                    alt={r.title}
+                                                    style={{
+                                                        width: '100%',
+                                                        height: '140px',
+                                                        objectFit: 'cover',
+                                                        display: 'block',
+                                                    }}
+                                                    onError={(e) => {
+                                                        e.target.src = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop';
+                                                    }}
                                                 />
                                                 <div className="related-card-body">
                                                     <span className="cat">{r.category}</span>
