@@ -1,6 +1,10 @@
 import Link from 'next/link';
 
 export default function PostCard({ post }) {
+    const shareUrl = `https://travia.vercel.app/post/${post.slug}`;
+    const shareText = encodeURIComponent(post.title + ' - Travia');
+    const shareUrlEnc = encodeURIComponent(shareUrl);
+
     return (
         <div className="post-card">
             {/* Thumbnail */}
@@ -37,9 +41,42 @@ export default function PostCard({ post }) {
 
                 <p className="excerpt">{post.excerpt}</p>
 
-                <Link href={`/post/${post.slug}`} className="read-more">
-                    Read Story →
-                </Link>
+                {/* Card Footer: Read More + Quick Share */}
+                <div className="card-footer">
+                    <Link href={`/post/${post.slug}`} className="read-more">
+                        Read Story
+                    </Link>
+
+                    <div className="card-share">
+                        {/* X / Twitter */}
+                        <a
+                            href={`https://twitter.com/intent/tweet?url=${shareUrlEnc}&text=${shareText}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="card-share-btn"
+                            title="Share on X"
+                        >𝕏</a>
+
+                        {/* Facebook */}
+                        <a
+                            href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrlEnc}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="card-share-btn"
+                            title="Share on Facebook"
+                        >f</a>
+
+                        {/* Instagram (copy link - Instagram doesn't support direct share) */}
+                        <button
+                            className="card-share-btn"
+                            title="Copy link for Instagram"
+                            onClick={() => {
+                                navigator.clipboard.writeText(shareUrl);
+                                alert('Link copied! Paste it on Instagram.');
+                            }}
+                        >◎</button>
+                    </div>
+                </div>
             </div>
         </div>
     );

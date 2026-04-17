@@ -86,17 +86,49 @@ export default function Contact() {
                                 </button>
                             </form>
 
-                            <div className="contact-info">
+                            <div className="contact-info-box">
                                 <h3>Connect With Us</h3>
                                 <p>Join our community of travelers and stay updated with the latest stories from around the world.</p>
+
                                 <div className="contact-detail">
                                     <h4>Email</h4>
                                     <p>hello@travia.com</p>
                                 </div>
+
                                 <div className="contact-detail">
-                                    <h4>Social</h4>
-                                    <p>@traviajournal</p>
+                                    <h4>Follow Us</h4>
                                 </div>
+
+                                <div className="social-links">
+                                    <a
+                                        href="https://twitter.com/traviajournal"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="social-link"
+                                    >
+                                        <span className="social-link-icon">𝕏</span>
+                                        @traviajournal on X
+                                    </a>
+                                    <a
+                                        href="https://facebook.com/traviajournal"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="social-link"
+                                    >
+                                        <span className="social-link-icon">f</span>
+                                        Travia on Facebook
+                                    </a>
+                                    <a
+                                        href="https://instagram.com/traviajournal"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="social-link"
+                                    >
+                                        <span className="social-link-icon">◎</span>
+                                        @traviajournal on Instagram
+                                    </a>
+                                </div>
+
                                 <div className="contact-detail">
                                     <h4>Newsletter</h4>
                                     <p>Subscribe to receive monthly travel stories and tips directly to your inbox.</p>
