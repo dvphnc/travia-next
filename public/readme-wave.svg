@@ -1,0 +1,39 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3d3834" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#8b7355" stop-opacity="0.15"/>
+      <stop offset="50%"  stop-color="#c8b99a" stop-opacity="0.25"/>
+      <stop offset="80%"  stop-color="#8b7355" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3d3834" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Animated wave path -->
+  <path fill="url(#waveGrad)">
+    <animate
+      attributeName="d"
+      dur="6s"
+      repeatCount="indefinite"
+      values="
+        M0,60 C150,20 300,100 450,60 C600,20 750,100 900,60 L900,120 L0,120 Z;
+        M0,60 C150,100 300,20 450,60 C600,100 750,20 900,60 L900,120 L0,120 Z;
+        M0,60 C150,20 300,100 450,60 C600,20 750,100 900,60 L900,120 L0,120 Z
+      "
+    />
+  </path>
+
+  <!-- Second wave layer -->
+  <path fill="#8b7355" fill-opacity="0.06">
+    <animate
+      attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+        M0,70 C200,30 400,110 600,70 C700,50 800,90 900,70 L900,120 L0,120 Z;
+        M0,70 C200,110 400,30 600,70 C700,90 800,50 900,70 L900,120 L0,120 Z;
+        M0,70 C200,30 400,110 600,70 C700,50 800,90 900,70 L900,120 L0,120 Z
+      "
+    />
+  </path>
+</svg>
