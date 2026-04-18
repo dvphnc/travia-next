@@ -5,9 +5,9 @@
 <br/>
 
 [![Next.js](https://img.shields.io/badge/Next.js_14-8b7355?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-6b5d54?style=flat-square&logo=vercel&logoColor=white)](https://travia-journal.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-6b5d54?style=flat-square&logo=vercel&logoColor=white)](https://traviajournal.vercel.app/)
 [![Made by](https://img.shields.io/badge/Made_by_Joana_Daphne_Sy-c8b99a?style=flat-square)](https://github.com/dvphnc)
-[![Live](https://img.shields.io/badge/Status_Live-a39382?style=flat-square)](https://travia-journal.vercel.app)
+[![Live](https://img.shields.io/badge/Status_Live-a39382?style=flat-square)](https://traviajournal.vercel.app/)
 
 </div>
 
