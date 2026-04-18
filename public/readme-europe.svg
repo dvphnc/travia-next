@@ -1,0 +1,54 @@
+<svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="europeOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#2a2420" stop-opacity="0.1"/>
+      <stop offset="70%"  stop-color="#2a2420" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0.85"/>
+    </linearGradient>
+    <clipPath id="europeClip">
+      <rect width="280" height="200" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <image
+    href="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=560&auto=format&fit=crop"
+    width="280" height="200"
+    clip-path="url(#europeClip)"
+    preserveAspectRatio="xMidYMid slice"
+  >
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      values="1;1.04;1"
+      dur="9s"
+      begin="1s"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </image>
+
+  <rect width="280" height="200" fill="url(#europeOverlay)"/>
+
+  <text x="14" y="26" font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="9" letter-spacing="3" fill="#c8a97e" opacity="0.9" font-weight="500">
+    EUROPE
+  </text>
+
+  <text x="14" y="158" font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="18" font-weight="200" letter-spacing="2" fill="#f8f6f3">
+    Europe
+  </text>
+  <text x="14" y="176" font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="9" letter-spacing="1" fill="#c8b99a" opacity="0.8">
+    4 stories
+  </text>
+
+  <rect x="14"  y="184" width="52" height="12" fill="#8b7355" fill-opacity="0.6" rx="1"/>
+  <text x="17"  y="193" font-family="'Helvetica Neue', Arial, sans-serif" font-size="7" letter-spacing="0.5" fill="#f8f6f3">Denmark</text>
+
+  <rect x="70"  y="184" width="52" height="12" fill="#8b7355" fill-opacity="0.5" rx="1"/>
+  <text x="73"  y="193" font-family="'Helvetica Neue', Arial, sans-serif" font-size="7" letter-spacing="0.5" fill="#f8f6f3">Portugal</text>
+
+  <rect x="126" y="184" width="62" height="12" fill="#8b7355" fill-opacity="0.4" rx="1"/>
+  <text x="129" y="193" font-family="'Helvetica Neue', Arial, sans-serif" font-size="7" letter-spacing="0.5" fill="#f8f6f3">Switzerland</text>
+</svg>
