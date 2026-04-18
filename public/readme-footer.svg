@@ -1,0 +1,90 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#2a2420"/>
+      <stop offset="50%"  stop-color="#3d3834"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <radialGradient id="footerGlow" cx="50%" cy="60%" r="50%">
+      <stop offset="0%"   stop-color="#c8a97e" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fLineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8b7355" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#c8a97e" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="fLineR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c8a97e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b7355" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fDot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#e8c99a"/>
+      <stop offset="100%" stop-color="#a07850"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="180" fill="url(#footerBg)"/>
+  <rect width="900" height="180" fill="url(#footerGlow)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#c8a97e" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="60"  x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="225" y1="0" x2="225" y2="180"/>
+    <line x1="450" y1="0" x2="450" y2="180"/>
+    <line x1="675" y1="0" x2="675" y2="180"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <polyline points="28,20 28,46 54,46" fill="none" stroke="#c8a97e" stroke-width="1" stroke-opacity="0.4"/>
+  <polyline points="872,20 872,46 846,46" fill="none" stroke="#c8a97e" stroke-width="1" stroke-opacity="0.4"/>
+  <polyline points="28,160 28,134 54,134" fill="none" stroke="#c8a97e" stroke-width="1" stroke-opacity="0.4"/>
+  <polyline points="872,160 872,134 846,134" fill="none" stroke="#c8a97e" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Floating particles -->
+  <circle cx="120" cy="60" r="1.5" fill="#c8a97e" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;50;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="80" r="1" fill="#e8c99a" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="5s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;70;80" dur="5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="30" r="1.5" fill="#c8a97e" opacity="0">
+    <animate attributeName="opacity" values="0;0.35;0" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="30;22;30" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Line left -->
+  <rect x="100" y="75" width="200" height="1" fill="url(#fLineL)" opacity="0.7"/>
+
+  <!-- Center mark -->
+  <rect x="446" y="71" width="9" height="9" fill="url(#fDot)" opacity="0.9" transform="rotate(45 450.5 75.5)"/>
+
+  <!-- Line right -->
+  <rect x="600" y="75" width="200" height="1" fill="url(#fLineR)" opacity="0.7"/>
+
+  <!-- Main closing text -->
+  <text x="450" y="108" text-anchor="middle"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="11" font-weight="300" letter-spacing="5"
+    fill="#c8b99a" opacity="0.85">
+    TRAVIA JOURNAL
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="128" text-anchor="middle"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="10" font-weight="300" letter-spacing="2"
+    fill="#6b5d54">
+    by Joana Daphne Sy  ·  2025  ·  MIT License
+  </text>
+
+  <!-- Closing quote -->
+  <text x="450" y="155" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="11" font-style="italic" font-weight="300"
+    fill="#8b7355" opacity="0.7">
+    "Not all those who wander are lost."
+  </text>
+</svg>
