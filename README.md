@@ -11,7 +11,7 @@
 
 <br/>
 
-**[View Live Site](https://travia-journal.vercel.app)**
+**[Open Travia Journal](https://travia-journal.vercel.app)**
 
 </div>
 
@@ -25,11 +25,11 @@
 
 Travia is a travel blog built for everyone, not just travelers.
 
-You don't need a passport or a boarding pass to feel something when you read about hidden temples at the edge of Kyoto, or discover that a Welsh community somehow survived in the middle of Patagonia. Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere new.
+You don't need a passport or a boarding pass to feel something reading about hidden temples at the edge of Kyoto, or to be surprised that a Welsh-speaking community somehow took root in the middle of Patagonia. Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere.
 
-Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you think *I had no idea.* That's the whole point of it.
+Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you stop and think *I had no idea.* That's the whole point of it.
 
-This started as a personal project. A way to learn, build, and make something I'd actually want to open. It turned into one of the things I'm most proud of building.
+This started as a personal project, a way to learn, build, and make something I'd actually want to open. It turned into one of the things I'm most proud of building.
 
 <br/>
 
@@ -39,31 +39,13 @@ This started as a personal project. A way to learn, build, and make something I'
 
 ## The Stories
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=400&auto=format&fit=crop" width="100%" alt="Asia"/>
-      <br/><br/>
-      <b>Asia</b>
-      <br/>
-      <sub>Japan &nbsp;·&nbsp; Indonesia &nbsp;·&nbsp; Thailand &nbsp;·&nbsp; Nepal</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=400&auto=format&fit=crop" width="100%" alt="Europe"/>
-      <br/><br/>
-      <b>Europe</b>
-      <br/>
-      <sub>Denmark &nbsp;·&nbsp; Portugal &nbsp;·&nbsp; Switzerland &nbsp;·&nbsp; Scotland</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&auto=format&fit=crop" width="100%" alt="Americas"/>
-      <br/><br/>
-      <b>Americas</b>
-      <br/>
-      <sub>USA &nbsp;·&nbsp; Argentina &nbsp;·&nbsp; Canada &nbsp;·&nbsp; Peru</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+| &nbsp; | &nbsp; | &nbsp; |
+|:---:|:---:|:---:|
+| ![Asia](public/readme-asia.svg) | ![Europe](public/readme-europe.svg) | ![Americas](public/readme-americas.svg) |
+
+</div>
 
 <br/>
 
@@ -97,14 +79,14 @@ This started as a personal project. A way to learn, build, and make something I'
 
 ## What I Built
 
-A full Next.js application with static generation, serverless API, and everything styled by hand.
+A full Next.js application with static generation, a serverless API, and everything styled by hand. No UI libraries, no shortcuts.
 
 <details>
-<summary>&nbsp;<b>Reading experience</b></summary>
+<summary>&nbsp;<b>The reading experience</b></summary>
 
 <br/>
 
-Each article has a clean single-column layout with a lead paragraph, a trivia box, and a travel tips section. There's a reading progress bar at the top of the page and a sticky sidebar that shows post info, share options, and related stories. The goal was to make reading feel unhurried.
+Each article has a clean single-column layout with a lead paragraph, a trivia box, and a travel tips section. There's a reading progress bar at the top of each page and a sticky sidebar that holds post info, share options, and related stories. The goal was to make reading feel unhurried and worth finishing.
 
 </details>
 
@@ -113,16 +95,16 @@ Each article has a clean single-column layout with a lead paragraph, a trivia bo
 
 <br/>
 
-Three category pages for Asia, Europe, and Americas. A search page that filters stories by destination, tag, or keyword. A full story listing so nothing gets buried. The navbar sticks to the top and gets a soft shadow as you scroll down.
+Three category pages for Asia, Europe, and the Americas. A search page that filters stories by destination, tag, or keyword. A full story listing so nothing gets buried. The navbar sticks to the top and picks up a soft shadow as you scroll.
 
 </details>
 
 <details>
-<summary>&nbsp;<b>Sharing</b></summary>
+<summary>&nbsp;<b>Sharing a story</b></summary>
 
 <br/>
 
-Every post has a share panel in the sidebar with buttons for X, Facebook, Instagram, and a copy link option. The cards on the home page have quick share buttons too so you can send a story along without clicking into it.
+Every post has a share panel in the sidebar with buttons for X, Facebook, Instagram, and a copy link option. The cards on the home page have quick share buttons too, so you can send a story along without opening it first.
 
 </details>
 
@@ -131,7 +113,7 @@ Every post has a share panel in the sidebar with buttons for X, Facebook, Instag
 
 <br/>
 
-Every visit to the home page opens with a short splash screen. The logo floats in, the name appears, a loading bar fills across the screen, and then the site opens. It takes about three seconds and it sets the mood before anything else loads.
+Every visit to the home page opens with a short splash screen. The logo floats in, the name appears, a loading bar fills across the screen, then the site opens. Three seconds. Sets the tone before anything else loads.
 
 </details>
 
@@ -140,7 +122,7 @@ Every visit to the home page opens with a short splash screen. The logo floats i
 
 <br/>
 
-Reading time on every card. Fallback images so broken links never break the layout. A back-to-top button that only appears when you've scrolled far enough to need it. Open Graph tags so shared links look right on every platform. A mobile menu that works properly. All of it written from scratch without a UI library.
+Reading time on every card. Fallback images so broken links never break the layout. A back-to-top button that only appears when you've scrolled far enough to need it. Open Graph tags so shared links look right everywhere. A mobile menu that works properly. All of it written from scratch.
 
 </details>
 
@@ -155,7 +137,7 @@ Reading time on every card. Fallback images so broken links never break the layo
 ```
 Next.js 14      Pages Router, static site generation
 JavaScript      No TypeScript, keeping it approachable
-Custom CSS      Written from scratch, no Tailwind or Bootstrap
+Custom CSS      Written from scratch, no frameworks
 Vercel          Hosting and automatic deployment
 Unsplash        Photography
 ```
@@ -189,7 +171,7 @@ npm start
 
 <br/>
 
-## Project Structure
+## How It's Organized
 
 ```
 travia-journal/
@@ -214,20 +196,16 @@ travia-journal/
 │   ├── asia.js            asia category
 │   ├── europe.js          europe category
 │   ├── americas.js        americas category
-│   └── post/[slug].js     article page with sidebar
+│   └── post/[slug].js     article with sidebar
 │
 ├── pages/api/
 │   └── contact.js         serverless contact handler
 │
 ├── public/
-│   ├── logo.png
-│   ├── favicon.ico
-│   ├── readme-banner.svg
-│   ├── readme-divider.svg
-│   └── readme-wave.svg
+│   └── ...                logo, favicon, readme assets
 │
 └── styles/
-    └── globals.css        all styles, written by hand
+    └── globals.css        everything, written by hand
 ```
 
 <br/>
@@ -240,7 +218,7 @@ travia-journal/
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dvphnc/travia-journal)
 
-Push to `main` and Vercel handles the rest automatically.
+Fork it, clone it, make it yours. Push to `main` and Vercel handles everything else.
 
 <br/>
 
@@ -250,7 +228,7 @@ Push to `main` and Vercel handles the rest automatically.
 
 <div align="center">
 
-<img src="https://github.com/dvphnc.png" width="68" style="border-radius:50%" alt="Joana Daphne Sy"/>
+<img src="https://github.com/dvphnc.png" width="72" style="border-radius:50%" alt="Joana Daphne Sy"/>
 
 <br/><br/>
 
@@ -262,12 +240,8 @@ Push to `main` and Vercel handles the rest automatically.
 
 [![GitHub](https://img.shields.io/badge/github_dvphnc-8b7355?style=flat-square&logo=github&logoColor=white)](https://github.com/dvphnc)
 
-<br/><br/>
-
-![Travia Journal](public/readme-banner.svg)
+</div>
 
 <br/>
 
-<sub>Travia Journal &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; MIT License</sub>
-
-</div>
+![footer](public/readme-footer.svg)
