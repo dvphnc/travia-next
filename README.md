@@ -11,8 +11,6 @@
 
 </div>
 
-![wave](public/readme-wave.svg)
-
 ## What is Travia?
 
 Travia is a travel blog built for everyone, not just travelers.
