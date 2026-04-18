@@ -134,6 +134,6 @@ travia-journal/
 
 ![wave](public/readme-wave.svg)
 
-<sub>© 2025 Travia Journal by Joana Daphne Sy. All rights reserved.</sub>
+<sub>© 2026 Travia Journal by Joana Daphne Sy. All Rights Reserved.</sub>
 
 </div>
