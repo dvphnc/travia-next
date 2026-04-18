@@ -25,9 +25,9 @@
 
 Travia is a travel blog built for everyone, not just travelers.
 
-You don't need a passport or a boarding pass to feel something reading about hidden temples at the edge of Kyoto, or to be surprised that a Welsh-speaking community somehow took root in the middle of Patagonia. Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere.
+> You don't need a passport or a boarding pass to feel something reading about hidden temples at the edge of Kyoto, or to be surprised that a Welsh-speaking community somehow took root in the middle of Patagonia.
 
-Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you stop and think *I had no idea.* That's the whole point of it.
+Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere. Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you stop and think *I had no idea.*
 
 This started as a personal project, a way to learn, build, and make something I'd actually want to open. It turned into one of the things I'm most proud of building.
 
@@ -109,7 +109,7 @@ This started as a personal project, a way to learn, build, and make something I'
 
 ## What I Built
 
-A full Next.js application with static generation, a serverless API, and everything styled by hand. No UI libraries, no shortcuts.
+> A full Next.js application with static generation, a serverless API, and everything styled by hand. No UI libraries, no shortcuts.
 
 <details>
 <summary>&nbsp;<b>The reading experience</b></summary>
@@ -180,6 +180,8 @@ Unsplash        Photography
 
 ## Run It Locally
 
+> Clone the repo, install dependencies, and you're running in under a minute.
+
 ```bash
 git clone https://github.com/dvphnc/travia-journal.git
 cd travia-journal
@@ -245,9 +247,9 @@ travia-journal/
 
 ## Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dvphnc/travia-journal)
+> Fork it, clone it, make it yours. Push to `main` and Vercel handles everything else.
 
-Fork it, clone it, make it yours. Push to `main` and Vercel handles everything else.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dvphnc/travia-journal)
 
 <br/>
 
@@ -263,7 +265,7 @@ Fork it, clone it, make it yours. Push to `main` and Vercel handles everything e
 
 **Joana Daphne Sy**
 
-<sub>Developer &nbsp;·&nbsp; Storyteller &nbsp;·&nbsp; Curious about everything</sub>
+### Developer &nbsp;·&nbsp; Storyteller &nbsp;·&nbsp; Curious about everything
 
 <br/>
 
@@ -275,10 +277,10 @@ Fork it, clone it, make it yours. Push to `main` and Vercel handles everything e
 
 <br/>
 
-<sub>Travia Journal &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; MIT License</sub>
+### Travia Journal &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; MIT License
 
 <br/>
 
-<sub><i>Not all those who wander are lost.</i></sub>
+### *Not all those who wander are lost.*
 
 </div>
