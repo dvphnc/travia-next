@@ -11,6 +11,10 @@
 
 </div>
 
+
+---
+
+
 ## What is Travia?
 
 Travia is a travel blog built for everyone, not just travelers.
@@ -127,8 +131,6 @@ travia-journal/
 └── styles/
     └── globals.css        everything, written by hand
 ```
-
----
 
 <div align="center">
 
