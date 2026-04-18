@@ -26,38 +26,6 @@ This started as a personal project, a way to learn, build, and make something I'
 
 <br/>
 
-## The Stories
-
-Asia, Europe, and the Americas. Twelve stories total. Each one written with a destination, a piece of trivia, and travel tips for anyone who wants to go.
-
-<details>
-<summary>&nbsp;<b>See all 12 stories</b></summary>
-
-<br/>
-
-| # | Story | Region | Author | Read |
-|---|-------|--------|--------|------|
-| 01 | Hidden Temples of Kyoto | Asia | Sarah Chen | 5 min |
-| 02 | Bali's Spiritual Retreats | Asia | Maya Patel | 5 min |
-| 03 | Street Food Culture in Bangkok | Asia | David Wong | 6 min |
-| 04 | Hiking the Himalayas | Asia | Raj Sharma | 7 min |
-| 05 | Minimalist Living in Copenhagen | Europe | Lars Nielsen | 6 min |
-| 06 | Portuguese Coastal Villages | Europe | Ana Silva | 6 min |
-| 07 | Alpine Minimalism in Switzerland | Europe | Felix Weber | 6 min |
-| 08 | Scottish Highlands Solitude | Europe | James MacLeod | 6 min |
-| 09 | Pacific Coast Highway Journey | Americas | Michael Torres | 7 min |
-| 10 | Patagonian Wilderness | Americas | Isabella Rodriguez | 7 min |
-| 11 | Montreal's Architectural Heritage | Americas | Sophie Leblanc | 6 min |
-| 12 | Ancient Ruins of Peru | Americas | Carlos Mendoza | 7 min |
-
-</details>
-
-<br/>
-
----
-
-<br/>
-
 ## What I Built
 
 > A full Next.js application with static generation, a serverless API, and everything styled by hand. No UI libraries, no shortcuts.
