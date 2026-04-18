@@ -4,14 +4,14 @@
 
 <br/>
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-8b7355?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Vercel](https://img.shields.io/badge/Deployed-Vercel-6b5d54?style=flat-square&logo=vercel&logoColor=white)](https://travia-journal.vercel.app)
-[![Made by](https://img.shields.io/badge/Made%20by-Joana%20Daphne%20Sy-c8b99a?style=flat-square)](https://github.com/dvphnc)
-[![Status](https://img.shields.io/badge/Status-Live-a39382?style=flat-square)](https://travia-journal.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js_14-8b7355?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-6b5d54?style=flat-square&logo=vercel&logoColor=white)](https://travia-journal.vercel.app)
+[![Made by](https://img.shields.io/badge/Made_by_Joana_Daphne_Sy-c8b99a?style=flat-square)](https://github.com/dvphnc)
+[![Live](https://img.shields.io/badge/Status_Live-a39382?style=flat-square)](https://travia-journal.vercel.app)
 
 <br/>
 
-**[View Live](https://travia-journal.vercel.app)**
+**[View Live Site](https://travia-journal.vercel.app)**
 
 </div>
 
@@ -23,13 +23,13 @@
 
 ## What is Travia?
 
-Travia is a travel blog built for everyone — not just travelers.
+Travia is a travel blog built for everyone, not just travelers.
 
-You don't need a passport or a plane ticket to feel something when you read about the hidden temples of Kyoto at dawn, or the way the Welsh language survived in the middle of Patagonia. Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere.
+You don't need a passport or a boarding pass to feel something when you read about hidden temples at the edge of Kyoto, or discover that a Welsh community somehow survived in the middle of Patagonia. Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere new.
 
-Every post pairs a destination with a piece of trivia — something unexpected, something that makes you say *I didn't know that.* That's the heart of it.
+Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you think *I had no idea.* That's the whole point of it.
 
-This started as a personal project. A way to learn, build, and create something I'd actually want to use. It ended up becoming one of the things I'm most proud of.
+This started as a personal project. A way to learn, build, and make something I'd actually want to open. It turned into one of the things I'm most proud of building.
 
 <br/>
 
@@ -68,7 +68,7 @@ This started as a personal project. A way to learn, build, and create something 
 <br/>
 
 <details>
-<summary>&nbsp;&nbsp;<b>See all 12 stories</b></summary>
+<summary>&nbsp;<b>See all 12 stories</b></summary>
 
 <br/>
 
@@ -97,50 +97,50 @@ This started as a personal project. A way to learn, build, and create something 
 
 ## What I Built
 
-This is a full-stack Next.js application deployed on Vercel. Here's what went into it:
+A full Next.js application with static generation, serverless API, and everything styled by hand.
 
 <details>
-<summary>&nbsp;&nbsp;<b>The reading experience</b></summary>
+<summary>&nbsp;<b>Reading experience</b></summary>
 
 <br/>
 
-Reading a blog should feel good. Every article on Travia has a clean single-column layout, a lead paragraph that draws you in, a trivia box that surprises you, and a travel tips section if you actually want to go. The reading progress bar keeps you grounded. The sidebar keeps you from getting lost.
+Each article has a clean single-column layout with a lead paragraph, a trivia box, and a travel tips section. There's a reading progress bar at the top of the page and a sticky sidebar that shows post info, share options, and related stories. The goal was to make reading feel unhurried.
 
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;<b>Finding your way around</b></summary>
+<summary>&nbsp;<b>Navigation and search</b></summary>
 
 <br/>
 
-Three categories — Asia, Europe, Americas — each with their own page and header. A live search that filters by destination, tag, or keyword as you type. A "View More Stories" page that shows everything at once. Every entry point leads somewhere worth going.
+Three category pages for Asia, Europe, and Americas. A search page that filters stories by destination, tag, or keyword. A full story listing so nothing gets buried. The navbar sticks to the top and gets a soft shadow as you scroll down.
 
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;<b>Sharing a story</b></summary>
+<summary>&nbsp;<b>Sharing</b></summary>
 
 <br/>
 
-Each post has a share panel built into the sidebar — X, Facebook, Instagram, and a copy link button. The post cards on the homepage have quick share buttons too, so you can pass a story along without even opening it.
+Every post has a share panel in the sidebar with buttons for X, Facebook, Instagram, and a copy link option. The cards on the home page have quick share buttons too so you can send a story along without clicking into it.
 
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;<b>The welcome screen</b></summary>
+<summary>&nbsp;<b>The welcome screen</b></summary>
 
 <br/>
 
-Every time you land on the home page, a short splash screen plays. The logo floats in, the name appears, a loading bar fills, and then the site opens. It takes about three seconds. It sets the tone.
+Every visit to the home page opens with a short splash screen. The logo floats in, the name appears, a loading bar fills across the screen, and then the site opens. It takes about three seconds and it sets the mood before anything else loads.
 
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;<b>The small things</b></summary>
+<summary>&nbsp;<b>The details</b></summary>
 
 <br/>
 
-Sticky navbar that casts a shadow as you scroll. A back-to-top button that appears only when you need it. Reading time on every card. Fallback images so nothing ever breaks. Mobile menu that actually works. SEO meta tags and Open Graph so shared links look right.
+Reading time on every card. Fallback images so broken links never break the layout. A back-to-top button that only appears when you've scrolled far enough to need it. Open Graph tags so shared links look right on every platform. A mobile menu that works properly. All of it written from scratch without a UI library.
 
 </details>
 
@@ -153,11 +153,11 @@ Sticky navbar that casts a shadow as you scroll. A back-to-top button that appea
 ## Built With
 
 ```
-Next.js 14      — React framework, Pages Router, static generation
-JavaScript      — No TypeScript, keeping it straightforward
-Custom CSS      — No Tailwind, no Bootstrap, written from scratch
-Vercel          — Hosting and deployment
-Unsplash        — Photography
+Next.js 14      Pages Router, static site generation
+JavaScript      No TypeScript, keeping it approachable
+Custom CSS      Written from scratch, no Tailwind or Bootstrap
+Vercel          Hosting and automatic deployment
+Unsplash        Photography
 ```
 
 <br/>
@@ -166,7 +166,7 @@ Unsplash        — Photography
 
 <br/>
 
-## Running It Locally
+## Run It Locally
 
 ```bash
 git clone https://github.com/dvphnc/travia-journal.git
@@ -178,7 +178,7 @@ npm run dev
 Open `http://localhost:3000` and you're in.
 
 ```bash
-# Build for production
+# Production build
 npm run build
 npm start
 ```
@@ -189,35 +189,35 @@ npm start
 
 <br/>
 
-## How It's Organized
+## Project Structure
 
 ```
 travia-journal/
 │
 ├── components/
-│   ├── Layout.js          — head, meta, page wrapper
-│   ├── Navbar.js          — sticky nav, mobile menu, search
-│   ├── Footer.js          — links, back to top, reading progress
-│   ├── PostCard.js        — thumbnail, tags, quick share
-│   └── SplashScreen.js    — animated welcome on home load
+│   ├── Layout.js          head, meta tags, page wrapper
+│   ├── Navbar.js          sticky nav, search, mobile menu
+│   ├── Footer.js          links, back to top, progress bar
+│   ├── PostCard.js        thumbnail, tags, quick share
+│   └── SplashScreen.js    animated welcome on home load
 │
 ├── data/
-│   ├── posts.js           — title, image, tags, excerpt per post
-│   └── postContent.js     — full article HTML for each story
+│   ├── posts.js           title, image, tags, excerpt per post
+│   └── postContent.js     full article HTML per story
 │
 ├── pages/
-│   ├── index.js           — home
-│   ├── about.js           — about
-│   ├── contact.js         — contact form
-│   ├── search.js          — live search results
-│   ├── all-posts.js       — full story listing
-│   ├── asia.js            — asia category
-│   ├── europe.js          — europe category
-│   ├── americas.js        — americas category
-│   └── post/[slug].js     — individual article with sidebar
+│   ├── index.js           home
+│   ├── about.js           about
+│   ├── contact.js         contact form
+│   ├── search.js          search results
+│   ├── all-posts.js       full story listing
+│   ├── asia.js            asia category
+│   ├── europe.js          europe category
+│   ├── americas.js        americas category
+│   └── post/[slug].js     article page with sidebar
 │
 ├── pages/api/
-│   └── contact.js         — serverless contact handler
+│   └── contact.js         serverless contact handler
 │
 ├── public/
 │   ├── logo.png
@@ -227,7 +227,7 @@ travia-journal/
 │   └── readme-wave.svg
 │
 └── styles/
-    └── globals.css        — everything, written by hand
+    └── globals.css        all styles, written by hand
 ```
 
 <br/>
@@ -240,7 +240,7 @@ travia-journal/
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dvphnc/travia-journal)
 
-Push to `main` and Vercel handles the rest.
+Push to `main` and Vercel handles the rest automatically.
 
 <br/>
 
@@ -260,7 +260,7 @@ Push to `main` and Vercel handles the rest.
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/github-dvphnc-8b7355?style=flat-square&logo=github&logoColor=white)](https://github.com/dvphnc)
+[![GitHub](https://img.shields.io/badge/github_dvphnc-8b7355?style=flat-square&logo=github&logoColor=white)](https://github.com/dvphnc)
 
 <br/><br/>
 
