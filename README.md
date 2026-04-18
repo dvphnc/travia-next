@@ -9,10 +9,6 @@
 [![Made by](https://img.shields.io/badge/Made_by_Joana_Daphne_Sy-c8b99a?style=flat-square)](https://github.com/dvphnc)
 [![Live](https://img.shields.io/badge/Status_Live-a39382?style=flat-square)](https://travia-journal.vercel.app)
 
-<br/>
-
-**[Open Travia Journal](https://travia-journal.vercel.app)**
-
 </div>
 
 <br/>
@@ -39,45 +35,7 @@ This started as a personal project, a way to learn, build, and make something I'
 
 ## The Stories
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://travia-journal.vercel.app/asia">
-        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=500&auto=format&fit=crop&q=80" width="100%" alt="Asia"/>
-      </a>
-      <br/><br/>
-      <a href="https://travia-journal.vercel.app/asia"><b>Asia</b></a>
-      <br/>
-      <sub>Japan &nbsp;·&nbsp; Indonesia &nbsp;·&nbsp; Thailand &nbsp;·&nbsp; Nepal</sub>
-      <br/>
-      <sub><i>4 stories</i></sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://travia-journal.vercel.app/europe">
-        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=500&auto=format&fit=crop&q=80" width="100%" alt="Europe"/>
-      </a>
-      <br/><br/>
-      <a href="https://travia-journal.vercel.app/europe"><b>Europe</b></a>
-      <br/>
-      <sub>Denmark &nbsp;·&nbsp; Portugal &nbsp;·&nbsp; Switzerland &nbsp;·&nbsp; Scotland</sub>
-      <br/>
-      <sub><i>4 stories</i></sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://travia-journal.vercel.app/americas">
-        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&auto=format&fit=crop&q=80" width="100%" alt="Americas"/>
-      </a>
-      <br/><br/>
-      <a href="https://travia-journal.vercel.app/americas"><b>Americas</b></a>
-      <br/>
-      <sub>USA &nbsp;·&nbsp; Argentina &nbsp;·&nbsp; Canada &nbsp;·&nbsp; Peru</sub>
-      <br/>
-      <sub><i>4 stories</i></sub>
-    </td>
-  </tr>
-</table>
-
-<br/>
+Asia, Europe, and the Americas. Twelve stories total. Each one written with a destination, a piece of trivia, and travel tips for anyone who wants to go.
 
 <details>
 <summary>&nbsp;<b>See all 12 stories</b></summary>
@@ -245,42 +203,12 @@ travia-journal/
 
 <br/>
 
-## Deploy Your Own
-
-> Fork it, clone it, make it yours. Push to `main` and Vercel handles everything else.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dvphnc/travia-journal)
-
-<br/>
-
----
-
-<br/>
-
 <div align="center">
 
-<img src="https://github.com/dvphnc.png" width="80" style="border-radius:50%" alt="Joana Daphne Sy"/>
-
-<br/><br/>
-
-**Joana Daphne Sy**
-
-### Developer &nbsp;·&nbsp; Storyteller &nbsp;·&nbsp; Curious about everything
+![wave](public/readme-wave.svg)
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/github_dvphnc-8b7355?style=flat-square&logo=github&logoColor=white)](https://github.com/dvphnc)
-
-<br/><br/>
-
-![Travia Journal](public/readme-banner.svg)
-
-<br/>
-
-### Travia Journal &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; MIT License
-
-<br/>
-
-### *Not all those who wander are lost.*
+<sub>© 2025 Travia Journal by Joana Daphne Sy. All rights reserved.</sub>
 
 </div>
