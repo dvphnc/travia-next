@@ -33,19 +33,49 @@ This started as a personal project, a way to learn, build, and make something I'
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
 ## The Stories
 
-<div align="center">
-
-| &nbsp; | &nbsp; | &nbsp; |
-|:---:|:---:|:---:|
-| ![Asia](public/readme-asia.svg) | ![Europe](public/readme-europe.svg) | ![Americas](public/readme-americas.svg) |
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://travia-journal.vercel.app/asia">
+        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=500&auto=format&fit=crop&q=80" width="100%" alt="Asia"/>
+      </a>
+      <br/><br/>
+      <a href="https://travia-journal.vercel.app/asia"><b>Asia</b></a>
+      <br/>
+      <sub>Japan &nbsp;·&nbsp; Indonesia &nbsp;·&nbsp; Thailand &nbsp;·&nbsp; Nepal</sub>
+      <br/>
+      <sub><i>4 stories</i></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://travia-journal.vercel.app/europe">
+        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=500&auto=format&fit=crop&q=80" width="100%" alt="Europe"/>
+      </a>
+      <br/><br/>
+      <a href="https://travia-journal.vercel.app/europe"><b>Europe</b></a>
+      <br/>
+      <sub>Denmark &nbsp;·&nbsp; Portugal &nbsp;·&nbsp; Switzerland &nbsp;·&nbsp; Scotland</sub>
+      <br/>
+      <sub><i>4 stories</i></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://travia-journal.vercel.app/americas">
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500&auto=format&fit=crop&q=80" width="100%" alt="Americas"/>
+      </a>
+      <br/><br/>
+      <a href="https://travia-journal.vercel.app/americas"><b>Americas</b></a>
+      <br/>
+      <sub>USA &nbsp;·&nbsp; Argentina &nbsp;·&nbsp; Canada &nbsp;·&nbsp; Peru</sub>
+      <br/>
+      <sub><i>4 stories</i></sub>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -73,7 +103,7 @@ This started as a personal project, a way to learn, build, and make something I'
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
@@ -86,7 +116,7 @@ A full Next.js application with static generation, a serverless API, and everyth
 
 <br/>
 
-Each article has a clean single-column layout with a lead paragraph, a trivia box, and a travel tips section. There's a reading progress bar at the top of each page and a sticky sidebar that holds post info, share options, and related stories. The goal was to make reading feel unhurried and worth finishing.
+Each article has a clean single-column layout with a lead paragraph, a trivia box, and a travel tips section. There is a reading progress bar at the top of each page and a sticky sidebar that holds post info, share options, and related stories. The goal was to make reading feel unhurried and worth finishing.
 
 </details>
 
@@ -113,7 +143,7 @@ Every post has a share panel in the sidebar with buttons for X, Facebook, Instag
 
 <br/>
 
-Every visit to the home page opens with a short splash screen. The logo floats in, the name appears, a loading bar fills across the screen, then the site opens. Three seconds. Sets the tone before anything else loads.
+Every visit to the home page opens with a short splash screen. The logo floats in, the name appears, a loading bar fills, then the site opens. Three seconds. Sets the tone before anything else loads.
 
 </details>
 
@@ -122,13 +152,13 @@ Every visit to the home page opens with a short splash screen. The logo floats i
 
 <br/>
 
-Reading time on every card. Fallback images so broken links never break the layout. A back-to-top button that only appears when you've scrolled far enough to need it. Open Graph tags so shared links look right everywhere. A mobile menu that works properly. All of it written from scratch.
+Reading time on every card. Fallback images so broken links never break the layout. A back-to-top button that only appears when needed. Open Graph tags so shared links look right everywhere. A mobile menu that works properly. All of it written from scratch.
 
 </details>
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
@@ -144,7 +174,7 @@ Unsplash        Photography
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
@@ -160,14 +190,13 @@ npm run dev
 Open `http://localhost:3000` and you're in.
 
 ```bash
-# Production build
 npm run build
 npm start
 ```
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
@@ -210,7 +239,7 @@ travia-journal/
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
@@ -222,13 +251,13 @@ Fork it, clone it, make it yours. Push to `main` and Vercel handles everything e
 
 <br/>
 
-![divider](public/readme-divider.svg)
+---
 
 <br/>
 
 <div align="center">
 
-<img src="https://github.com/dvphnc.png" width="72" style="border-radius:50%" alt="Joana Daphne Sy"/>
+<img src="https://github.com/dvphnc.png" width="80" style="border-radius:50%" alt="Joana Daphne Sy"/>
 
 <br/><br/>
 
@@ -240,8 +269,16 @@ Fork it, clone it, make it yours. Push to `main` and Vercel handles everything e
 
 [![GitHub](https://img.shields.io/badge/github_dvphnc-8b7355?style=flat-square&logo=github&logoColor=white)](https://github.com/dvphnc)
 
-</div>
+<br/><br/>
+
+![Travia Journal](public/readme-banner.svg)
 
 <br/>
 
-![footer](public/readme-footer.svg)
+<sub>Travia Journal &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; MIT License</sub>
+
+<br/>
+
+<sub><i>Not all those who wander are lost.</i></sub>
+
+</div>
