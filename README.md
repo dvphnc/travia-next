@@ -11,11 +11,6 @@
 
 </div>
 
-<br/>
-
-![wave](public/readme-wave.svg)
-
-<br/>
 
 ## What is Travia?
 
@@ -26,8 +21,6 @@ Travia is a travel blog built for everyone, not just travelers.
 Travia is a place where anyone can sit down, read a story, and feel like they've been somewhere. Every post pairs a destination with a piece of trivia. Something unexpected. Something that makes you stop and think *I had no idea.*
 
 This started as a personal project, a way to learn, build, and make something I'd actually want to open. It turned into one of the things I'm most proud of building.
-
-<br/>
 
 ---
 
